@@ -1,6 +1,10 @@
 *.class
 
-# Package Files #
-*.jar
 *.war
+
 *.ear
+
+Encryption/.classpath
+Encryption/.project
+Encryption/.settings
+Encryption/bin
