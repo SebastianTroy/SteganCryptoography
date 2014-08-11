@@ -26,7 +26,7 @@ Advanced
 --------
 To run the program from a command line or console, open the console to the location of the program and type "java -jar Encrypto.jar"
 
-You can also add extra arguments to the JVM for extra features of the program, "java -jar <add your arguments here> Encrypto.jar"
+You can also add extra arguments to the JVM for extra features of the program, "java -jar [add your arguments here] Encrypto.jar"
 
 these are:
  - '-Dseed=<i>integer</i>' This allows you to specify your own seed, used to construct the Neural Network, messages encoded with a seed can only be decoded with exactly the same seed allowing for "passkey" protected messages (default value if unspecified == 1198662804)
