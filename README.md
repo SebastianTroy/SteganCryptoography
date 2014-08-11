@@ -3,9 +3,9 @@ SteganCryptoography
 
 A program that uses steganography to hide messages inside images but in such a way as to make it impossible to tell random data from our message.
 
-The concept of the program is that a Neural Network is created that reads 16 bits of information and translates it into a letter. 2^16 = 65536 different possible characters in our alphabet however the network will narrow the inputs down to a letter of the ahabet a-b, a space ' ' or a terminating character that signals the end of the message, a total of 28. This makes our origional 16 bits very redundant in that there are roughly 2340 combinations per letter of the alphabet making it highly unlikely that in a single message any combination will ever be repeated.
+The concept of the program is that a Neural Network is created that reads 16 bits of information and translates it into a letter. 2^16 = 65536 different possible characters in our alphabet however the network will narrow the inputs down to a letter of the alphabet a-z, a space ' ' or a terminating character that signals the end of the message, a total of 28. This makes our origional 16 bits very redundant in that there are roughly 2340 combinations per letter of the alphabet making it highly unlikely that in a single message any combination will ever be repeated.
 
-The information is hidden in the picture in 4*4 squares. Each pixel of the image is used to encode 1 bit, if the RGB integer for a pixel is even it is == 0, if it is odd then it is == 1. Due to the nature of the encryption and compression of the image will completely destroy any hidden message.
+The information is hidden in the picture in 4*4 squares. Each pixel of the image is used to encode 1 bit, if the RGB integer for a pixel is even it is == 0, if it is odd then it is == 1. Due to the nature of the encryption, compression of the image will completely destroy any hidden message.
 
 How To Use
 ==========
